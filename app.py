@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello! This is my simple web app."
+    return "Hello! This is my ."
 
 @app.route("/about")
 def about():
